@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">JavaProject1</string>
+    <string name="app">app name</string>
+    <string name="email">email</string>
+    <string name="pass">password</string>
+    <string name="user_name">user name</string>
+    <string name="login">login</string>
+    <string name="sign_up">sign up</string>
+    <string name="title_activity_login">login</string>
+    <string name="phone">phone</string>
+    <string name="birthday">birthday</string>
+    <string name="firstname">firstName</string>
+    <string name="lastname">lastName</string>
+    <string name="user_details">user_details</string>
+    <string name="logout">logOut</string>
+</resources>
