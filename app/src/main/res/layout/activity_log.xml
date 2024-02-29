@@ -9,15 +9,19 @@
     tools:context=".log">
     <TextView
         android:text="@string/login"
-        android:gravity="center"
-        android:layout_marginBottom="30dp"
-        android:textStyle="bold"
-        android:textSize="20sp"
+        android:gravity="center|top"
+        android:layout_marginBottom="90dp"
+        android:textStyle="bold|italic"
+        android:textSize="32sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+        app:boxStrokeColor="#36A0FF"
+        android:layout_margin="16dp"
+        >
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/email"
             android:hint="@string/email"
@@ -27,7 +31,11 @@
     </com.google.android.material.textfield.TextInputLayout>
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+        app:boxStrokeColor="#36A0FF"
+        android:layout_margin="16dp"
+        >
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/password"
             android:hint="@string/pass"
@@ -46,6 +54,9 @@
         android:text="@string/login"
         android:layout_marginTop="30dp"
         android:gravity="center"
+        android:elevation="10dp"
+        android:shadowColor="#FF0000"
+        android:background="@drawable/btn_background"
         android:id="@+id/btn_login"
         />
     <TextView
@@ -54,7 +65,7 @@
         android:layout_height="wrap_content"
         android:text="@string/sign_up"
         android:textSize="18sp"
-        android:textStyle="italic"
+        android:textStyle="italic|bold"
         android:layout_marginTop="10dp"/>
 
 
